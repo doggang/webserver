@@ -1,0 +1,16 @@
+/*----------nav------------*/
+#plus_wrap{
+    position: relative;
+    width: 84%;
+    height: 40px;
+    border: 1px solid black;
+    left: 8%;
+    margin: 100px 0 40px;
+}
+#plus_content{
+    float: right;
+    width: auto;
+    height: 100%;
+    line-height: 40px;
+    margin-right: 10px;
+}

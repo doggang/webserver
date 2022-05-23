@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding : 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/*----------article---------*/
+article{
+    position: relative;
+    left: 8%;
+    width: 84%;
+    margin: -20px 0 200px;
+}
+#write_form{
+    width: 100%;
+}
+#write_text{
+    width: calc(100% - 100px);
+    height: 400px;
+    padding: 30px 50px;
+}
+#write_wrap{
+    float: right;
+}
+#write_cancel{
+    border: 1px solid black;
+    width: 34px;
+    height: 23px;
+    font-size: 16px;
+}
+#write_submit{
+    background-color: white;
+    border: 1px solid black;
+    width: 50px;
+    height: 23px;
+    font-size: 16px;
+}
+#write_submit:hover{
+    cursor: pointer;
+}
