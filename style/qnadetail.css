@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/*---------question-----------*/
+article{
+    position: relative;
+    left: 8%;
+    width: 84%;
+    margin: -20px 0 200px;
+}
+#article_wrap{
+    width: calc(100% - 80px);
+    height: 400px;
+    padding: 20px 40px;
+    border: 1px solid black;
+}
+#back{
+    margin-top: 20px;
+    float: right;
+    border: 1px solid black;
+}

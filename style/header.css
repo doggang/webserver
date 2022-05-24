@@ -1,0 +1,38 @@
+/*---------header---------*/
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0;
+    box-shadow: 1px -5px 20px -5px black;
+}
+#title{
+    position: relative;
+    display: flex;
+    left: 8%;
+}
+#title_img{
+    width: 60px;
+}
+#title_name{
+    position: relative;
+    top: 0;
+    font-size: 24px;
+    width: 185px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 14px;
+}
+#nav{
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    right: 8%;
+}
+.nav_li{
+    font-size: 26px;
+    padding: 0 40px;
+    line-height: 60px;
+}
+#qna{
+    padding-right: 0;
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/*------------article-------------*/
+article{
+    position: relative;
+    left: 8%;
+    width: 84%;
+    margin-bottom: 200px;
+}
+#article{
+    width: calc(100% - 80px);
+    height: 400px;
+    border: 1px solid black;
+    padding: 30px 40px;
+}
+#article_title{
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
