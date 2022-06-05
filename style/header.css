@@ -33,6 +33,9 @@ header{
     padding: 0 40px;
     line-height: 60px;
 }
+.nav_li a:hover{
+    color: rgb(34, 46, 138);
+}
 #qna{
     padding-right: 0;
 }
