@@ -19,10 +19,12 @@ article{
 }
 #article_wrap{
     margin-top: 20px;
-    width: calc(100% - 80px);
+    width: calc(100% - 0px);
     height: 400px;
-    padding: 20px 40px;
-    border: 1px solid black;
+    padding: 20px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    list-style-type: none;
 }
 .article_one{
     display: flex;
@@ -34,7 +36,7 @@ article{
     display: flex;
 }
 .right_one_content{
-    padding: 0 30px;
+    padding: 0 30px;                
 }
 #write{
     float: right;

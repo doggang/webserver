@@ -1,10 +1,21 @@
 /*---------header---------*/
 header{
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 14px 0;
     box-shadow: 1px -5px 20px -5px black;
+    z-index: 10;
+    background-color: white;
 }
+
+body{
+    position: relative;
+    top: 88px;
+}
+
 #title{
     position: relative;
     display: flex;
