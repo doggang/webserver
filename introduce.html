@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./style/header.css">
     <link rel="stylesheet" href="./style/nav.css">
     <link rel="stylesheet" href="./style/footer.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
 </head>
 <body>
     <header>
@@ -31,7 +32,7 @@
     
     <nav>
         <div id="plus_wrap">
-            <a id="plus_content" href="#">Main > Introduce</a>
+            <a id="plus_content" href="./introduce.html">웹사이트 소개</a><span id="plus_content">></span><a id="plus_content" href="./index.html">Main</a>
         </div>
     </nav>
 
@@ -40,7 +41,33 @@
             웹 페이지 소개
         </div>
         <div id="article">
-            소개글
+            <div id="article_main">
+                <div id="article_main_title">Services</div>
+                <div id="article_main_contetn">웹 페이지의 목적</div>
+            </div>
+            <div id="article_wrap">
+                <div class="content_wrap">
+                    <img class='article_img' src="./img/intell.jpg" alt="">
+                    <div class="content_title">집단 지성</div>
+                    <div class="content">
+                        웹 사용자들이 자유롭게 의견을 나눌 수 있는 공간을 만들어 소통하며 많은 정보를 공유할 수 있게끔 함.
+                    </div>
+                </div>
+                <div class="content_wrap">
+                    <img class='article_img' src="./img/content.jpg" alt="">
+                    <div class="content_title">콘텐츠 수용</div>
+                    <div class="content">
+                        웹 사용자들의 관광지 등 웹 콘텐츠 요청 시 적극 수용하여 콘텐츠에 반영함.
+                    </div>
+                </div>
+                <div class="content_wrap">
+                    <img class='article_img' src="./img/fill.jpg" alt="">
+                    <div class="content_title">만족도 충족</div>
+                    <div class="content">
+                        문화재, 휴양지, 카페 등 휴식을 취할 수 있는 공간을 공유하여 많은 사람들의 힐링을 도와 만족도를 충족시킨다. 
+                    </div>
+                </div>
+            </div>
         </div>
     </article>
 
@@ -56,4 +83,5 @@
         </div>
     </footer>
 </body>
+<script src="./header.js"></script>
 </html>

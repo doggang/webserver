@@ -6,14 +6,10 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 14px 0;
-    box-shadow: 1px -5px 20px -5px black;
-    z-index: 10;
-    background-color: white;
 }
 
 body{
     position: relative;
-    top: 88px;
 }
 
 #title{
@@ -32,6 +28,7 @@ body{
     height: 60px;
     line-height: 60px;
     padding-left: 14px;
+    color: white;
 }
 #nav{
     position: relative;
@@ -40,13 +37,61 @@ body{
     right: 8%;
 }
 .nav_li{
-    font-size: 26px;
+    font-size: 24px;
     padding: 0 40px;
     line-height: 60px;
 }
+.nav_li a{
+    color: white;
+}
 .nav_li a:hover{
     color: rgb(34, 46, 138);
+    transition-duration: 0.2s;
 }
 #qna{
     padding-right: 0;
+}
+
+/*--------header---------*/
+.shrink{
+    box-shadow: 1px -5px 20px -5px black;
+    z-index: 10;
+    background-color: white;
+    transition-duration: 0.5s;
+}
+.shrink #title #title_img{
+    height: 40px;
+    width: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: black;
+}
+.shrink #title #title_name{
+    font-size:20px;
+    line-height: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: black;
+}
+.shrink #nav .nav_li{
+    font-size: 20px;
+    line-height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: black;
+}
+
+.shrink #nav .nav_li a{
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: black;
+}
+
+.shrink #nav .nav_li a:hover{
+    color: rgb(34, 46, 138);
 }

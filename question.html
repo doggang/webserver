@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./style/header.css">
     <link rel="stylesheet" href="./style/nav.css">
     <link rel="stylesheet" href="./style/footer.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
 </head>
 <body>
     <header>
@@ -24,19 +25,19 @@
                 <a href="./place.html">관광지 소개</a>
             </li>
             <li id='qna' class="nav_li">
-                <a href="./question.html">Q&A</a>
+                <a href="./question.html">자유 게시판</a>
             </li>
         </ul>
     </header>
     
     <nav>
         <div id="plus_wrap">
-            <a id="plus_content" href="#">Main > Q&A</a>
+            <a id="plus_content" href="./index.html">자유 게시판</a><span id="plus_content">></span><a id="plus_content" href="#">Main</a>
         </div>
     </nav>
 
     <article>
-        <div id="art_title">Q&A 게시판</div>
+        <div id="art_title">자유 게시판</div>
         <ul id="article_wrap">
             <li>
                 <a class="article_one" href="./qnadetail.html">
@@ -128,10 +129,26 @@
                     </div>
                 </a>
             </li>
+            <li>
+                <a id='article_one_last' class="article_one" href="./qnadetail.html">
+                    <div>제목</div>
+                    <div class="right_one">
+                        <div class="right_one_content">아이디</div>
+                        <div class="right_one_content">작성일</div>
+                        <div class="right_one_content">조회수</div>
+                    </div>
+                </a>
+            </li>
         </ul>
         <a id="write" href="./write.html">글쓰기</a>
-        <div id="page">
-            1 2 3 4 5
+        <div>
+            <ul id="page_wrap">
+                <li class="page_content"><a href="#">1</a></li>
+                <li class="page_content"><a href="#">2</a></li>
+                <li class="page_content"><a href="#">3</a></li>
+                <li class="page_content"><a href="#">4</a></li>
+                <li class="page_content"><a href="#">5</a></li>
+            </ul>
         </div>
     </article>
 
@@ -147,4 +164,5 @@
         </div>
     </footer>
 </body>
+<script src="./header.js"></script>
 </html>
