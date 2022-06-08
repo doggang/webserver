@@ -95,3 +95,31 @@ body{
 .shrink #nav .nav_li a:hover{
     color: rgb(34, 46, 138);
 }
+
+/*--------------반응형-------------*/
+
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/
+@media all and (min-width:768px) and (max-width:1023px) {
+    #title{
+        left: 4%;
+    }
+    #title_img{
+        height: 60px;
+        width: 60px;
+    }
+    #nav{
+        right: 4%;
+    }
+    .nav_li{
+        font-size: 18px;
+        padding: 0px 20px;
+    }
+    .shrink #nav .nav_li{
+        font-size: 18px;
+    }
+}
+
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/
+@media all and (max-width:767px) {
+    
+}
