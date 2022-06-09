@@ -104,5 +104,14 @@ section{
 
 /* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/
 @media all and (max-width:767px) {
-    
+    #main_img{
+        height: 800px;
+    }
+    #main_sub{
+        margin-top: -100px;
+        font-size: 30px;
+    }
+    #main_main{
+        font-size: 70px;
+    }
 }

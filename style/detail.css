@@ -37,17 +37,10 @@ article{
     padding: 20px 40px;
 
 }
-#ul_img1{
-    
+#ul_img{
+    list-style-type: none;
 }
 
-#ul_img2{
-    
-}
-
-#ul_img3{
-    
-}
 #name{
     font-weight: bold;
     font-size: 30px;
