@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Culture City 춘천</title>
+    <title>춘천, 놀자!</title>
     <link rel="stylesheet" href="./style/index.css">
     <link rel="stylesheet" href="./style/index_header.css">
     <link rel="stylesheet" href="./style/nav.css">
@@ -19,7 +19,7 @@
     <header>
         <a id="title" href="./index.html">
             <img id='title_img' src="./img/header_img.png" alt="">
-            <div id="title_name">Culture City 춘천</div>
+            <div id="title_name">놀자, 춘천!</div>
         </a>
         
         <ul id="nav">
@@ -33,25 +33,27 @@
                 <a href="./question.html">자유 게시판</a>
             </li>
         </ul>
-
+        
         <div class="header">
-                <div class="menu_btn"><a href="#">
-                <img id="menu_img" src="./img/muen_bar.png">
+            <div class="menu_btn">
+                <a href="#">
+                    <img id="menu_img" src="./img/muen_bar.png">
                 </a>
-                </div>
             </div>
-            <div class="menu_bg"></div>
-            <div class="sidebar_menu">
-                <div class="close_btn"><a href="#">
-                <img id="cancel" src="./img/cancel.png">
+        </div>
+        <div class="menu_bg"></div>
+        <div class="sidebar_menu">
+            <div class="close_btn">
+                <a href="#">
+                    <img id="cancel" src="./img/cancel.png">
                 </a>
-                </div>
-                <ul class="menu_wrap">
-                    <li id="menu_first"><a href="#">웹페이지 소개</a></li>
-                    <li id="menu_second"><a href="#">관광지 소개</a></li>
-                    <li id="menu_third"><a href="#">자유 게시판</a></li>
-                </ul>
             </div>
+            <ul class="menu_wrap">
+                <a href="./introduce.html"><li id="menu_first">웹페이지 소개</li></a>
+                <a href="./place.html"><li id="menu_second">관광지 소개</li></a>
+                <a href="./question.html"><li id="menu_third">자유 게시판</li></a>
+            </ul>
+        </div>
             
     </header>
     
@@ -69,7 +71,7 @@
     <article>
         <a class="art_wrap" href="./detail.html">
             <div class="art_img_wrap">
-                <img class='art_img' src="./img/school.jpg" alt="이미지">
+                <img class='art_img' src="./img/place.jpg" alt="이미지">
             </div>
             <div class="art_name"><p>한림대학교</p></div>
         </a>
@@ -102,5 +104,5 @@
     </footer>
 
 </body>
-<script src="./header.js"></script>
+<script src="./index_header.js"></script>
 </html>

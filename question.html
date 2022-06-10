@@ -12,7 +12,7 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 </head>
 <body>
-    <header>
+    <header class="shrink">
         <a id="title" href="./index.html">
             <img id='title_img' src="./img/header_img.png" alt="">
             <div id="title_name">Culture City 춘천</div>
@@ -28,6 +28,29 @@
                 <a href="./question.html">자유 게시판</a>
             </li>
         </ul>
+
+        <div id="slider">
+            <div class="header">
+                <div class="menu_btn">
+     `               <a href="#">
+                        <img id="menu_img" src="./img/muen_bar.png">
+                    </a>
+                </div>
+            </div>
+            <div class="menu_bg"></div>
+            <div class="sidebar_menu">
+                <div class="close_btn">
+                    <a href="#">
+                        <img id="cancel" src="./img/cancel.png">
+                    </a>
+                </div>
+                <ul class="menu_wrap">
+                    <a href="./introduce.html"><li id="menu_first">웹페이지 소개</li></a>
+                    <a href="./place.html"><li id="menu_second">관광지 소개</li></a>
+                    <a href="./question.html"><li id="menu_third">자유 게시판</li></a>
+                </ul>
+            </div>
+        </div>
     </header>
     
     <nav>
@@ -41,7 +64,7 @@
         <ul id="article_wrap">
             <li>
                 <a class="article_one" href="./qnadetail.html">
-                    <div>제목</div>
+                    <div class="left_title">제목제목제목제목제목제목제목제목제목제목제목제목제목제목제목</div>
                     <div class="right_one">
                         <div class="right_one_content">아이디</div>
                         <div class="right_one_content">작성일</div>
@@ -163,6 +186,5 @@
             </div>
         </div>
     </footer>
-</body>
-<script src="./header.js"></script>
-</html>
+    <script src="./slider_bar.js"></script>
+    </html>

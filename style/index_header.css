@@ -5,7 +5,7 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 14px 0;
+    padding: 14px 0 10px 0;
 }
 
 body{
@@ -19,6 +19,7 @@ body{
 }
 #title_img{
     width: 60px;
+    height: 60px;
 }
 #title_name{
     position: relative;
@@ -54,6 +55,12 @@ body{
 }
 
 .header{
+    display: none;
+}
+.menu_bg{
+    display: none;
+}
+.sidebar_menu{
     display: none;
 }
 /*--------header---------*/
@@ -141,13 +148,16 @@ body{
     #nav{
         display: none;
     }
-    #mobile_nav{
-        display: block;
-    }
 
     /*---sidebar-----*/
     .header{
         width: 100%;
+        display: block;
+    }
+    .menu_bg{
+        display: block;
+    }
+    .sidebar_menu{
         display: block;
     }
     .menu_btn{
@@ -155,7 +165,7 @@ body{
         padding: 10px;
     }
     #menu_img{
-        margin: -3px 10px 0 0;
+        margin: -1px 10px 0 0;
     }
     .menu_bg{
         width: 100%;
@@ -173,8 +183,9 @@ body{
         position: absolute;
         top:0;
         right: -50%;
-        background-color: rgb(232, 232, 232);
+        background-color: rgb(252, 252, 252);
         z-index: 10;
+        border-left: 2px solid rgb(198, 198, 198);
     }
     .close_btn{
         width: 25px;
@@ -198,15 +209,20 @@ body{
         align-items: center;
         margin-top: 50px;
     }
-    .menu_wrap li a{
-        color: black;
+    .menu_wrap a{
+        color: #666666;
+        font-size: 16px;
         text-decoration: none;
+        width: 80%;
+        height: 100%;
     }
     .menu_wrap li{
         text-align: center;
-        width: 80%;
         padding: 20px 0;
-        border-top: 1px solid black;
+        border-top: 1px solid #e1e1e1;
+    }
+    .menu_wrap li:hover{
+        background-color: rgb(208, 205, 205);
     }
     #menu_first{
 
@@ -215,7 +231,15 @@ body{
 
     }
     #menu_third{
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid #e1e1e1;
     }
 
+
+    /*-----------article----------*/
+    article{
+        flex-direction: column;
+    }
+    .art_wrap{
+        width: 100%;
+    }
 }

@@ -54,5 +54,15 @@ article{
 
 /* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/
 @media all and (max-width:767px) {
-    
+    #article_wrap{
+        width: calc(100% - 40px);
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    #back{
+        width: 60px;
+        height: 25px;
+        font-size: 12px;
+        line-height: 25px;
+    }
 }
