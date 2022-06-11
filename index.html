@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>춘천, 놀자!</title>
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/index_header.css">
+    <link rel="stylesheet" href="./style/nav.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <a id="title" href="./index.html">
+            <img id='title_img' src="./img/header_img.png" alt="">
+            <div id="title_name">놀자, 춘천!</div>
+        </a>
+        
+        <ul id="nav">
+            <li class="nav_li">
+                <a href="./introduce.html">웹페이지 소개</a>
+            </li>
+            <li class="nav_li">                
+                <a href="./place.html">관광지 소개</a>
+            </li>
+            <li id='qna' class="nav_li">
+                <a href="./question.html">자유 게시판</a>
+            </li>
+        </ul>
+        
+        <div class="header">
+            <div class="menu_btn">
+                <a href="#">
+                    <img id="menu_img" src="./img/muen_bar.png">
+                </a>
+            </div>
+        </div>
+        <div class="menu_bg"></div>
+        <div class="sidebar_menu">
+            <div class="close_btn">
+                <a href="#">
+                    <img id="cancel" src="./img/cancel.png">
+                </a>
+            </div>
+            <ul class="menu_wrap">
+                <a href="./introduce.html"><li id="menu_first">웹페이지 소개</li></a>
+                <a href="./place.html"><li id="menu_second">관광지 소개</li></a>
+                <a href="./question.html"><li id="menu_third">자유 게시판</li></a>
+            </ul>
+        </div>
+            
+    </header>
+    
+    <div id='main_img'>   
+        <p id="main_sub">춘천에 오신 것을 환영합니다</p>
+        <p id="main_main">춘천 휴양지 찾기</p>
+    </div>
+    <nav>
+        <div id="plus_wrap">
+            <a id="plus" href="./place.html">+</a>
+            <a id="plus_content" href="./place.html">더 보기</a>
+        </div>
+    </nav>
+
+    <article>
+        <a class="art_wrap" href="./detail.html">
+            <div class="art_img_wrap">
+                <img class='art_img' src="./img/place.jpg" alt="이미지">
+            </div>
+            <div class="art_name"><p>한림대학교</p></div>
+        </a>
+
+        <a class="art_wrap" href="./detail.html">
+            <div class="art_img_wrap">
+                <img class='art_img' src="" alt="이미지">
+            </div>
+            <div class="art_name">이름</div>
+        </a>
+
+        <a class="art_wrap" href="./detail.html">
+            <div class="art_img_wrap">
+                <img class='art_img' src="" alt="이미지">
+            </div>
+            <div class="art_name">이름</div>
+        </a>
+    </article>
+    
+    <footer>
+        <div id="footer_content">
+            <p id="footer_title">INFORMATION</p>
+            <div id="footer_in">
+                Developer : Kim Do Hyun<br>
+                E-mail : rlaehgusqp@naver.com<br>
+                GitHub : <a href="https://github.com/doggang">https://github.com/doggang</a><br> 
+                Web Server - FrontEnd
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="./js/index_header.js"></script>
+</html>
